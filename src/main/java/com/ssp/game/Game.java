@@ -5,9 +5,9 @@ import com.ssp.rules.TurnResult;
 
 public class Game {
 
-    final private Player playerA;
+    private final Player playerA;
 
-    final private Player playerB;
+    private final Player playerB;
 
     public Game(Player playerA, Player playerB) {
         this.playerA = playerA;

@@ -14,12 +14,12 @@ public class Main {
     public static void main(String[] args) {
 
         // Setup Player A
-        PlayBehavior playerBehaviorA = new RandomPlayBehavior();
-        Player playerA = new Player(playerBehaviorA);
+        PlayBehavior playBehaviorA = new RandomPlayBehavior();
+        Player playerA = new Player(playBehaviorA);
 
         // Setup Player B
-        PlayBehavior playerBehaviorB = new RepeatedPlayBehavior(PAPER);
-        Player playerB = new Player(playerBehaviorB);
+        PlayBehavior playBehaviorB = new RepeatedPlayBehavior(PAPER);
+        Player playerB = new Player(playBehaviorB);
 
         // Setup and run game
         Game game = new Game(playerA, playerB);

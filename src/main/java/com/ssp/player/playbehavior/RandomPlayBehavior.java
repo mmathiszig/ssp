@@ -7,7 +7,7 @@ import java.util.Random;
 public class RandomPlayBehavior implements PlayBehavior {
 
 
-    private Random random;
+    private final Random random;
 
     public RandomPlayBehavior(Random random) {
         this.random = random;
