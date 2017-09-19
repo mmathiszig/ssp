@@ -9,6 +9,10 @@ import com.ssp.player.playbehavior.RepeatedPlayBehavior;
 
 import static com.ssp.rules.Turn.PAPER;
 
+/**
+ * Entry point -- This runs a game of multiple rounds with two differently behaving players.
+ *
+ */
 public class Main {
 
     public static void main(String[] args) {
