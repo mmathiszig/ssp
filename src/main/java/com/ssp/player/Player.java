@@ -8,7 +8,7 @@ import com.ssp.rules.Turn;
  * Each participant of a game is represented by a {@code Player} instance.
  *
  * The class provides logic to play a game round against another player depending
- * on the two player's {@code PlayBehavior} implementations.
+ * on the two players' {@code PlayBehavior} implementations.
  */
 public class Player {
 

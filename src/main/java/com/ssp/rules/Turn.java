@@ -6,8 +6,7 @@ import static com.ssp.rules.TurnResult.*;
  * The possible turns for a player when playing the game.
  *
  * Also contains the static game rules which define the outcome
- * of a game round depending on selected turns of the two
- * players.
+ * of a game round depending on the turns selected by the two players.
  *
  */
 public enum Turn {
